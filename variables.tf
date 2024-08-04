@@ -103,3 +103,15 @@ variable "private_route_table_tags" {
     default = {}
   
 }
+#### peering ####
+variable "is_peering_required" {
+    type = bool
+    default = false
+  
+}
+
+variable "acceptor_vpc_d" {
+    type = string
+    default = ""
+  
+}
